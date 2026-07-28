@@ -1,12 +1,12 @@
 # Leo Game
 
-2D платформер/экшен для Steam (Windows).
+2D платформер/экшен для Steam (Windows, macOS).
 
 ## Стек технологий
 
 - **Движок:** Unity
 - **Язык:** C#
-- **Платформа:** Windows (Steam)
+- **Платформа:** Windows, macOS (Steam)
 - **Арт:** placeholder-графика на старте, финальный арт — позже
 - **VCS:** Git + Git LFS (текстуры, аудио, модели, бинарники)
 
@@ -30,3 +30,19 @@ Git LFS уже инициализирован и настроен (`.gitattribut
 ```
 git lfs status
 ```
+
+## Сборка
+
+В Unity Hub нужно поставить модули **Windows Build Support (Mono)** и **Mac Build Support (IL2CPP)** для установленной версии редактора (Editor → Installs → ⚙ → Add Modules).
+
+Сборка из редактора: **File → Build Settings** → выбрать платформу (Windows / macOS) → **Build**.
+
+Сборка из командной строки (используется `Assets/Editor/BuildScript.cs`):
+```
+# macOS
+"/path/to/Unity" -batchmode -quit -projectPath . -executeMethod BuildScript.BuildMacOS -logFile -
+
+# Windows
+"/path/to/Unity" -batchmode -quit -projectPath . -executeMethod BuildScript.BuildWindows -logFile -
+```
+Готовые сборки попадают в `Builds/` (в `.gitignore`, не коммитятся).

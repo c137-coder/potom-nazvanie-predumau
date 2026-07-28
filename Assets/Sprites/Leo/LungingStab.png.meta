@@ -1,0 +1,567 @@
+fileFormatVersion: 2
+guid: d49e7569d100b4a9a845026d86902a27
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7513802378206369320
+    second: LungingStab_0
+  - first:
+      213: -1196757311886012095
+    second: LungingStab_1
+  - first:
+      213: 7518017803198707298
+    second: LungingStab_2
+  - first:
+      213: -4262385406231636690
+    second: LungingStab_3
+  - first:
+      213: -9185004721743511596
+    second: LungingStab_4
+  - first:
+      213: -2639227803495076701
+    second: LungingStab_5
+  - first:
+      213: 7533945542784419018
+    second: LungingStab_6
+  - first:
+      213: 5372401327085873391
+    second: LungingStab_7
+  - first:
+      213: 4225050657916522281
+    second: LungingStab_8
+  - first:
+      213: -3966411116565968399
+    second: LungingStab_9
+  - first:
+      213: 7376288249558941843
+    second: LungingStab_10
+  - first:
+      213: 8448279991841435288
+    second: LungingStab_11
+  - first:
+      213: 745194814799997376
+    second: LungingStab_12
+  - first:
+      213: -3138714063959166279
+    second: LungingStab_13
+  - first:
+      213: 7046268363787743728
+    second: LungingStab_14
+  - first:
+      213: -2375845022803509014
+    second: LungingStab_15
+  - first:
+      213: -5489849993810069209
+    second: LungingStab_16
+  - first:
+      213: 9178405537379015762
+    second: LungingStab_17
+  - first:
+      213: 6720900187981539055
+    second: LungingStab_18
+  - first:
+      213: -8352472836474077530
+    second: LungingStab_19
+  - first:
+      213: -786751956122944166
+    second: LungingStab_20
+  - first:
+      213: -6650736749239102461
+    second: LungingStab_21
+  - first:
+      213: -7480881897704637359
+    second: LungingStab_22
+  - first:
+      213: -7041033142068172575
+    second: LungingStab_23
+  - first:
+      213: 1268096955153973921
+    second: LungingStab_24
+  - first:
+      213: -3776183931823005419
+    second: LungingStab_25
+  - first:
+      213: 3070083860914483768
+    second: LungingStab_26
+  - first:
+      213: -1526238944829849560
+    second: LungingStab_27
+  - first:
+      213: 2700563340279591737
+    second: LungingStab_28
+  - first:
+      213: -8820445413524515624
+    second: LungingStab_29
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LungingStab_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 80
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d9268efb8c99b790800000000000000
+      internalID: -7513802378206369320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LungingStab_1
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 80
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 141dea6c093446fe0800000000000000
+      internalID: -1196757311886012095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LungingStab_2
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 80
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 266b8be1c5d555860800000000000000
+      internalID: 7518017803198707298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LungingStab_3
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 80
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2511cd5e07f8d4c0800000000000000
+      internalID: -4262385406231636690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LungingStab_4
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 80
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4df313caede488080800000000000000
+      internalID: -9185004721743511596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LungingStab_5
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 0
+        width: 80
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ac6753cb449f5bd0800000000000000
+      internalID: -2639227803495076701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LungingStab_6
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 80
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac48dcafd83fd8860800000000000000
+      internalID: 7533945542784419018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LungingStab_7
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 0
+        width: 80
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe86ac3fa8a9e8a40800000000000000
+      internalID: 5372401327085873391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LungingStab_8
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 80
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92f0527203562aa30800000000000000
+      internalID: 4225050657916522281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LungingStab_9
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 0
+        width: 80
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f9ccebba1a74f8c0800000000000000
+      internalID: -3966411116565968399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LungingStab_10
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 0
+        width: 80
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39049dbe417dd5660800000000000000
+      internalID: 7376288249558941843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LungingStab_11
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 0
+        width: 80
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89eafb444e15e3570800000000000000
+      internalID: 8448279991841435288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LungingStab_12
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 0
+        width: 80
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c9ed906cb6775a00800000000000000
+      internalID: 745194814799997376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LungingStab_13
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 0
+        width: 80
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b2f03e303c0174d0800000000000000
+      internalID: -3138714063959166279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LungingStab_14
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 0
+        width: 80
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f134af7ebf59c160800000000000000
+      internalID: 7046268363787743728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      LungingStab_0: -7513802378206369320
+      LungingStab_1: -1196757311886012095
+      LungingStab_10: 7376288249558941843
+      LungingStab_11: 8448279991841435288
+      LungingStab_12: 745194814799997376
+      LungingStab_13: -3138714063959166279
+      LungingStab_14: 7046268363787743728
+      LungingStab_15: -2375845022803509014
+      LungingStab_16: -5489849993810069209
+      LungingStab_17: 9178405537379015762
+      LungingStab_18: 6720900187981539055
+      LungingStab_19: -8352472836474077530
+      LungingStab_2: 7518017803198707298
+      LungingStab_20: -786751956122944166
+      LungingStab_21: -6650736749239102461
+      LungingStab_22: -7480881897704637359
+      LungingStab_23: -7041033142068172575
+      LungingStab_24: 1268096955153973921
+      LungingStab_25: -3776183931823005419
+      LungingStab_26: 3070083860914483768
+      LungingStab_27: -1526238944829849560
+      LungingStab_28: 2700563340279591737
+      LungingStab_29: -8820445413524515624
+      LungingStab_3: -4262385406231636690
+      LungingStab_4: -9185004721743511596
+      LungingStab_5: -2639227803495076701
+      LungingStab_6: 7533945542784419018
+      LungingStab_7: 5372401327085873391
+      LungingStab_8: 4225050657916522281
+      LungingStab_9: -3966411116565968399
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

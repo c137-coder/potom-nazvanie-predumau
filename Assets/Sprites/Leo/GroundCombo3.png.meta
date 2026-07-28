@@ -1,0 +1,537 @@
+fileFormatVersion: 2
+guid: 4c1784629d9074573a5fe323ca3db57c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1513093786375248702
+    second: GroundCombo3_0
+  - first:
+      213: 5105624869757515617
+    second: GroundCombo3_1
+  - first:
+      213: -7645359493686065002
+    second: GroundCombo3_2
+  - first:
+      213: -2567306706979737689
+    second: GroundCombo3_3
+  - first:
+      213: -6981517834494402889
+    second: GroundCombo3_4
+  - first:
+      213: -825622340237423404
+    second: GroundCombo3_5
+  - first:
+      213: 2769570768125970825
+    second: GroundCombo3_6
+  - first:
+      213: -1273076976601119072
+    second: GroundCombo3_7
+  - first:
+      213: 7431740129483959836
+    second: GroundCombo3_8
+  - first:
+      213: 6296172309081436779
+    second: GroundCombo3_9
+  - first:
+      213: 8390838101002055177
+    second: GroundCombo3_10
+  - first:
+      213: -7257467283487715861
+    second: GroundCombo3_11
+  - first:
+      213: 8394936291377807345
+    second: GroundCombo3_12
+  - first:
+      213: -6641723713535176251
+    second: GroundCombo3_13
+  - first:
+      213: -1621456808649494720
+    second: GroundCombo3_14
+  - first:
+      213: -8513735674440809866
+    second: GroundCombo3_15
+  - first:
+      213: -2020042788022594669
+    second: GroundCombo3_16
+  - first:
+      213: -174896179954676700
+    second: GroundCombo3_17
+  - first:
+      213: 3092134620153020876
+    second: GroundCombo3_18
+  - first:
+      213: 6607228207520028368
+    second: GroundCombo3_19
+  - first:
+      213: 8603233211865794646
+    second: GroundCombo3_20
+  - first:
+      213: -8675826346820740773
+    second: GroundCombo3_21
+  - first:
+      213: 8871197844978368474
+    second: GroundCombo3_22
+  - first:
+      213: -5342713168690745698
+    second: GroundCombo3_23
+  - first:
+      213: -3900102849323067214
+    second: GroundCombo3_24
+  - first:
+      213: 2393543127081862066
+    second: GroundCombo3_25
+  - first:
+      213: 1573605670852504760
+    second: GroundCombo3_26
+  - first:
+      213: 6481950225245537420
+    second: GroundCombo3_27
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GroundCombo3_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 80
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c4a04fc739600be0800000000000000
+      internalID: -1513093786375248702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundCombo3_1
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 80
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 167fb4ea4c2dad640800000000000000
+      internalID: 5105624869757515617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundCombo3_2
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 80
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6988eae1c0a36e590800000000000000
+      internalID: -7645359493686065002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundCombo3_3
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 80
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7afaef4f6281f5cd0800000000000000
+      internalID: -2567306706979737689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundCombo3_4
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 80
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7be18e9e48aac1f90800000000000000
+      internalID: -6981517834494402889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundCombo3_5
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 0
+        width: 80
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dc858b1bdcca84f0800000000000000
+      internalID: -825622340237423404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundCombo3_6
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 80
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 989447690fd7f6620800000000000000
+      internalID: 2769570768125970825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundCombo3_7
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 0
+        width: 80
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a646fd1c3f155ee0800000000000000
+      internalID: -1273076976601119072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundCombo3_8
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 80
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1e28e0d548d22760800000000000000
+      internalID: 7431740129483959836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundCombo3_9
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 0
+        width: 80
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6233774b5f706750800000000000000
+      internalID: 6296172309081436779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundCombo3_10
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 0
+        width: 80
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90e6a0adbce327470800000000000000
+      internalID: 8390838101002055177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundCombo3_11
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 0
+        width: 80
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bed02b615fb484b90800000000000000
+      internalID: -7257467283487715861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundCombo3_12
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 0
+        width: 80
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fffb97241ec08470800000000000000
+      internalID: 8394936291377807345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundCombo3_13
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 0
+        width: 80
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c1927ec87bd3d3a0800000000000000
+      internalID: -6641723713535176251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      GroundCombo3_0: -1513093786375248702
+      GroundCombo3_1: 5105624869757515617
+      GroundCombo3_10: 8390838101002055177
+      GroundCombo3_11: -7257467283487715861
+      GroundCombo3_12: 8394936291377807345
+      GroundCombo3_13: -6641723713535176251
+      GroundCombo3_14: -1621456808649494720
+      GroundCombo3_15: -8513735674440809866
+      GroundCombo3_16: -2020042788022594669
+      GroundCombo3_17: -174896179954676700
+      GroundCombo3_18: 3092134620153020876
+      GroundCombo3_19: 6607228207520028368
+      GroundCombo3_2: -7645359493686065002
+      GroundCombo3_20: 8603233211865794646
+      GroundCombo3_21: -8675826346820740773
+      GroundCombo3_22: 8871197844978368474
+      GroundCombo3_23: -5342713168690745698
+      GroundCombo3_24: -3900102849323067214
+      GroundCombo3_25: 2393543127081862066
+      GroundCombo3_26: 1573605670852504760
+      GroundCombo3_27: 6481950225245537420
+      GroundCombo3_3: -2567306706979737689
+      GroundCombo3_4: -6981517834494402889
+      GroundCombo3_5: -825622340237423404
+      GroundCombo3_6: 2769570768125970825
+      GroundCombo3_7: -1273076976601119072
+      GroundCombo3_8: 7431740129483959836
+      GroundCombo3_9: 6296172309081436779
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
