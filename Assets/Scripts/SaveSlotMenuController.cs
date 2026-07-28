@@ -10,7 +10,7 @@ public class SaveSlotMenuController : MonoBehaviour
     [SerializeField] private GameObject panel;
     [SerializeField] private GameObject firstSelected;
     [SerializeField] private Text[] slotLabels;
-    [SerializeField] private PlayerController player;
+    [SerializeField] private PlayerMovement playerMovement;
 
     private bool wasPausedBeforeOpen;
 
@@ -33,7 +33,7 @@ public class SaveSlotMenuController : MonoBehaviour
 
     public void SaveToSlot(int slot)
     {
-        SaveSystem.Save(slot, SceneManager.GetActiveScene().name, player.transform.position);
+        SaveSystem.Save(slot, SceneManager.GetActiveScene().name, playerMovement.transform.position);
         Close();
     }
 
@@ -47,9 +47,9 @@ public class SaveSlotMenuController : MonoBehaviour
         panel.SetActive(false);
         Time.timeScale = 1f;
 
-        if (player != null)
+        if (playerMovement != null)
         {
-            player.ClearPendingInput();
+            playerMovement.ClearPendingInput();
         }
     }
 

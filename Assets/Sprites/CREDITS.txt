@@ -1,0 +1,17 @@
+Images used in this project (CC0 / public domain, no attribution legally required):
+
+- Drone/Drone.png, Drone/DroneExplode.png — "Pixel Art Drone" (replaced in-game by Drone2/UfoDrone.png — top-down view read oddly in a side-view game; kept the files/credit since they're still valid CC0 assets)
+  https://opengameart.org/content/pixel-art-drone
+  License: CC0. Attribution appreciated but not required.
+
+- Drone2/UfoDrone.png — "UFO - Enemy Game Character" by bevouliin.com
+  https://opengameart.org/content/ufo-enemy-game-character
+  License: CC0.
+
+- Background/SciFiBackground.jpg — "Sci-Fi Background" by hassekf
+  https://opengameart.org/content/sci-fi-background
+  License: CC0.
+
+- Tileset/GroundTile.png — "Free Sci-Fi Platformer Game Tileset" (GameArt2D / pzUH)
+  https://opengameart.org/content/free-sci-fi-platformer-game-tileset
+  License: CC0.

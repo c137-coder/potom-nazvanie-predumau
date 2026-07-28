@@ -1,8 +1,7 @@
 using UnityEngine;
-using UnityEngine.InputSystem;
 
 [RequireComponent(typeof(Rigidbody2D))]
-public class PlayerController : MonoBehaviour, InputSystem_Actions.IPlayerActions
+public class PlayerMovement : MonoBehaviour
 {
     [Header("Movement")]
     [SerializeField] private float moveSpeed = 8f;
@@ -18,13 +17,12 @@ public class PlayerController : MonoBehaviour, InputSystem_Actions.IPlayerAction
     [Header("Ground Check")]
     [SerializeField] private Transform groundCheck;
     [SerializeField] private float groundCheckRadius = 0.1f;
-    [SerializeField] private LayerMask groundLayer;
+    [SerializeField] private LayerMask groundLayer = 1 << 8;
 
     [Header("Visuals")]
     [SerializeField] private Animator animator;
     [SerializeField] private SpriteRenderer spriteRenderer;
 
-    private InputSystem_Actions actions;
     private Rigidbody2D rb;
 
     private Vector2 moveInput;
@@ -38,10 +36,15 @@ public class PlayerController : MonoBehaviour, InputSystem_Actions.IPlayerAction
     private int dashesRemaining;
     private float dashCooldownTimer;
 
+    private bool movementLocked;
+
+    public int FacingDirection => facingDirection;
+    public bool IsGrounded => isGrounded;
+    public bool IsDashing => isDashing;
+
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
-        actions = new InputSystem_Actions();
     }
 
     private void Start()
@@ -51,18 +54,6 @@ public class PlayerController : MonoBehaviour, InputSystem_Actions.IPlayerAction
         {
             transform.position = new Vector3(spawnPosition.Value.x, spawnPosition.Value.y, transform.position.z);
         }
-    }
-
-    private void OnEnable()
-    {
-        actions.Player.SetCallbacks(this);
-        actions.Player.Enable();
-    }
-
-    private void OnDisable()
-    {
-        actions.Player.Disable();
-        actions.Player.RemoveCallbacks(this);
     }
 
     private void Update()
@@ -106,6 +97,13 @@ public class PlayerController : MonoBehaviour, InputSystem_Actions.IPlayerAction
 
         if (isDashing)
         {
+            UpdateVisuals();
+            return;
+        }
+
+        if (movementLocked)
+        {
+            rb.linearVelocity = new Vector2(0f, rb.linearVelocity.y);
             UpdateVisuals();
             return;
         }
@@ -154,24 +152,19 @@ public class PlayerController : MonoBehaviour, InputSystem_Actions.IPlayerAction
         rb.gravityScale = 1f;
     }
 
-    public void OnMove(InputAction.CallbackContext context)
+    public void SetMoveInput(Vector2 input)
     {
-        moveInput = context.ReadValue<Vector2>();
+        moveInput = input;
     }
 
-    public void OnJump(InputAction.CallbackContext context)
+    public void RequestJump()
     {
-        if (!context.performed)
-        {
-            return;
-        }
-
         jumpRequested = true;
     }
 
-    public void OnDash(InputAction.CallbackContext context)
+    public void TryDash()
     {
-        if (!context.performed || isDashing || dashesRemaining <= 0 || dashCooldownTimer > 0f)
+        if (isDashing || dashesRemaining <= 0 || dashCooldownTimer > 0f)
         {
             return;
         }
@@ -179,34 +172,9 @@ public class PlayerController : MonoBehaviour, InputSystem_Actions.IPlayerAction
         StartDash();
     }
 
-    public void OnAttack(InputAction.CallbackContext context)
+    public void SetMovementLocked(bool locked)
     {
-        if (!context.performed)
-        {
-            return;
-        }
-
-        // TODO: ближний бой — подключить, когда появится боевая система
-    }
-
-    public void OnRangedAttack(InputAction.CallbackContext context)
-    {
-        if (!context.performed)
-        {
-            return;
-        }
-
-        // TODO: дальний бой — подключить, когда появится боевая система
-    }
-
-    public void OnPause(InputAction.CallbackContext context)
-    {
-        if (!context.performed)
-        {
-            return;
-        }
-
-        PauseMenuController.Instance?.TogglePause();
+        movementLocked = locked;
     }
 
     public void ClearPendingInput()
@@ -217,12 +185,10 @@ public class PlayerController : MonoBehaviour, InputSystem_Actions.IPlayerAction
 
     private void OnDrawGizmosSelected()
     {
-        if (groundCheck == null)
+        if (groundCheck != null)
         {
-            return;
+            Gizmos.color = Color.green;
+            Gizmos.DrawWireSphere(groundCheck.position, groundCheckRadius);
         }
-
-        Gizmos.color = Color.green;
-        Gizmos.DrawWireSphere(groundCheck.position, groundCheckRadius);
     }
 }

@@ -10,7 +10,8 @@ public class PauseMenuController : MonoBehaviour
 
     [SerializeField] private GameObject pausePanel;
     [SerializeField] private GameObject firstSelected;
-    [SerializeField] private PlayerController player;
+    [SerializeField] private PlayerMovement playerMovement;
+    [SerializeField] private InventoryMenuController inventoryMenu;
     [SerializeField] private string menuSceneName = "MainMenu";
 
     private InputSystem_Actions actions;
@@ -78,11 +79,21 @@ public class PauseMenuController : MonoBehaviour
     {
         isPaused = false;
         Time.timeScale = 1f;
-        pausePanel.SetActive(false);
 
-        if (player != null)
+        // Clear selection before hiding the panel — deactivating a GameObject while it's
+        // still the selected UI element skips its OnDeselect callback, leaving MenuButtonHighlight's
+        // frame stuck visible next time the panel reappears.
+        if (EventSystem.current != null)
         {
-            player.ClearPendingInput();
+            EventSystem.current.SetSelectedGameObject(null);
+        }
+
+        pausePanel.SetActive(false);
+        inventoryMenu?.ForceClose();
+
+        if (playerMovement != null)
+        {
+            playerMovement.ClearPendingInput();
         }
     }
 

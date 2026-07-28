@@ -1,0 +1,27 @@
+Music used in this project (all CC0 / public domain, no attribution legally required):
+
+- MainMenuTheme.mp3 — "Cyberpunk Moonlight Sonata" by Joth
+  https://opengameart.org/content/cyberpunk-moonlight-sonata
+  License: CC0. Author notes attribution is appreciated but not required.
+
+- LevelAmbient.mp3 — "Scifi City - Ambient Loop"
+  https://opengameart.org/content/scifi-city-ambient-loop
+  License: CC0.
+
+Sound effects used in this project (all CC0 / public domain, no attribution legally required):
+
+- Shoot.wav — "Alien Blaster" by cyklon698 (replaced the original realistic "22 Pistol" recording — too weak/thin for gameplay feedback)
+  https://opengameart.org/content/alien-blaster
+  License: CC0.
+
+- Reload.wav — "Handgun Reload Sound Effect"
+  https://opengameart.org/content/handgun-reload-sound-effect
+  License: CC0.
+
+- Hit.ogg — "hit_02.ogg" from "100 CC0 SFX"
+  https://opengameart.org/content/100-cc0-sfx
+  License: CC0.
+
+- SwordSwing.wav — "swish-7.wav" from "Swishes Sound Pack"
+  https://opengameart.org/content/swishes-sound-pack
+  License: CC0.
